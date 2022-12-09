@@ -72,15 +72,15 @@ jobs:
 
          path: ./build
 
-     - name: Deploy to gh pages
+     - name: Deploy to local box
 
-       uses: peaceiris/actions-gh-pages@v3
+       uses: appleboy/ssh-action@master
 
        with:
 
          github_token: ${{secrets.FUCKU}}
 
-         publish_dir: ./build
+         
 
         
          
