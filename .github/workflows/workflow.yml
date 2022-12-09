@@ -78,7 +78,7 @@ jobs:
 
        with:
 
-         github_token: ${{secrets.DEPLOYMENTONGITHUBACCESSTOKEN}}
+         github_token: ${{secrets.FUCKU}}
 
          publish_dir: ./build
 
