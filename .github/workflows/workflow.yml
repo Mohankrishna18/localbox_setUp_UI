@@ -78,8 +78,9 @@ jobs:
 
        with:
 
-         github_token: ${{secrets.USERNAME}}
-         github_pass: ${{secrets.PASSWORD}}
+         host: ${{secrets.HOST_NAME}}
+         userName: ${{secrets.USERNAME}}
+         password: ${{secrets.PASSWORD}}
 
 
          
