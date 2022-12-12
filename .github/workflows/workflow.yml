@@ -78,7 +78,9 @@ jobs:
 
        with:
 
-         github_token: ${{secrets.FUCKU}}
+         github_token: ${{secrets.USERNAME}}
+         github_pass: ${{secrets.PASSWORD}}
+
 
          
 
